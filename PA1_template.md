@@ -1,8 +1,11 @@
+Reproducible Research: Peer Assessment 1
+========================================
 
-### Load data from the file x.csv and preprocess it.
+
+### Load data from the file activity.csv and preprocess it.
 
 ```r
-unzip("repdata_data_activity.zip")
+unzip("activity.zip")
 x <- read.csv("activity.csv")
 ```
 
